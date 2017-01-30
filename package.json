@@ -1,0 +1,16 @@
+{
+  "name": "numero-uno",
+  "version": "1.0.0",
+  "description": "Website to help people ski together",
+  "main": "index.js",
+  "author": "Dmitry Demenchuk <dmitry@demenchuk.me>",
+  "homepage": "https://numero-uno.me",
+  "license": "WTFPL",
+  "private": true,
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "scripts": {
+    "start": "node server.js $PORT"
+  }
+}
