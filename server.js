@@ -1,9 +1,13 @@
 var express = require('express');
 
 this.server = express();
-this.server.use(express.static('public'));
+this.server.use(express.static(__dirname + '/dist'));
+this.server.set('view engine', 'ejs');
 
-var port = process.env.PORT || 8080;
+this.server.listen(process.env.PORT || 8080, function() {
+  console.log("Express server listening on port %d", process.env.PORT || 8080);
+});
 
-this.server.listen(port);
-console.log("Express server listening on port %d", port);
+this.server.get('*', function(req, res) {
+  res.render('index', require('./dist/assets.json'));
+});

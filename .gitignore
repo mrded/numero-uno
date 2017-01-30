@@ -1,1 +1,12 @@
-node_modules
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+dist/
+tmp
+.DS_Store
+.idea
+.vscode
+npm-debug.log
+dump.rdb
+newrelic_agent.log

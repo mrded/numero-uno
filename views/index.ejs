@@ -19,8 +19,8 @@
     <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-    <!-- Theme CSS -->
-    <link href="css/grayscale.css" rel="stylesheet">
+    <link href="/<%- vendor.css %>" rel="stylesheet">
+    <link href="/<%- main.css %>" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -69,7 +69,7 @@
     </nav>
 
     <!-- Intro Header -->
-    <header class="intro">
+    <header class="intro" style="background: url(./intro-bg.jpg) no-repeat bottom center scroll;">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
@@ -100,7 +100,7 @@
 
     <!-- Download Section -->
     <section id="download" class="content-section text-center">
-        <div class="download-section">
+        <div class="download-section" style="background: url(./downloads-bg.jpg) no-repeat center center scroll;">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Download Grayscale</h2>
@@ -149,9 +149,8 @@
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBL4fz36-Dq5Kh26IkZmKKdKQHUnga8m5o&sensor=false"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
-
+    <script src="/<%- vendor.js %>"></script>
+    <script src="/<%- main.js %>"></script>
 </body>
 
 </html>
