@@ -4,10 +4,10 @@ This repository now includes favicon and logo files for the website.
 
 ## Current Status
 
-✅ Favicon and logo have been created with the Dolomites "D" logo  
+✅ Favicon and logo have been created with the Numero Uno ski patch  
 ✅ HTML has been updated to reference the favicon files  
 ✅ Multiple favicon sizes created for cross-browser compatibility  
-✅ Logo features a blue "D" in a white circle on light blue background  
+✅ Logo features the official Numero Uno ski patch with pineapple character skiing  
 
 ## Files Added
 
@@ -21,7 +21,7 @@ This repository now includes favicon and logo files for the website.
 
 ## How to Update the Logo (Optional)
 
-The current logo is based on the Dolomites "D" design with a blue letter in a white circle on a light blue background. If you need to modify or replace it:
+The current logo is the official Numero Uno ski patch featuring a fun pineapple character skiing down mountains with snowflakes, created specifically for this annual ski trip. If you need to modify or replace it:
 
 ### Option 1: Online Converter
 
